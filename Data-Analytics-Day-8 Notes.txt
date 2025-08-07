@@ -1,0 +1,142 @@
+1️⃣ Descriptive vs Inferential Statistics:
+=========================================
+Summary:
+
+Descriptive: Summarizes data (mean, median, mode).
+
+Inferential: Draws conclusions from samples (confidence intervals, hypothesis tests).
+
+Example:
+
+Descriptive: Average customer rating is 4.3 stars.
+
+Inferential: 95% sure that the average rating of all users is between 4.1 and 4.5.
+
+2️⃣ Measures of Central Tendency (Mean, Median, Mode):
+======================================
+Summary:
+
+Mean: Average
+
+Median: Middle value
+
+Mode: Most frequent value
+
+Example:
+Salaries: ₹25k, ₹30k, ₹35k, ₹50k, ₹1,00,000
+
+Mean = skewed due to ₹1 lakh
+
+Median = better for typical salary
+
+3️⃣ Measures of Dispersion (Range, Variance, Std. Deviation):
+======================================
+Summary:
+
+Range = Max - Min
+
+Variance = Avg of squared deviations
+
+Std. Deviation = Square root of variance
+
+Example:
+Used to understand volatility in stock prices or consistency in exam scores.
+
+4️⃣ Data Cleaning with Python (Handling Duplicates & Nulls):
+======================================
+Summary:
+
+Remove df.duplicated()
+
+Fill/Drop nulls with df.dropna(), df.fillna()
+
+Example:
+
+Fill missing sales values with average.
+
+Drop users with no email info.
+
+5️⃣ GroupBy in Pandas
+==================
+Summary:
+Group data and apply aggregation.
+
+Example:
+
+df.groupby('region')['sales'].sum()
+Total sales per region.
+
+6️⃣ Crosstab vs Pivot Table in Pandas:
+=============================
+Summary:
+
+Crosstab: Frequency counts
+
+Pivot Table: Aggregation with flexibility
+
+Example:
+Crosstab: Orders by Gender vs Product
+Pivot Table: Avg spending by Month vs Category
+
+7️⃣ Box Plot Interpretation:
+=====================
+Summary:
+
+Shows distribution + outliers
+
+Line = median
+
+Dots = outliers
+
+Example:
+Box plot of salaries can reveal extreme earners.
+
+8️⃣ Histogram Interpretation:
+=======================
+Summary:
+
+Shows frequency distribution
+
+Good for skewness, modality
+
+Example:
+Histogram of customer ages shows that most fall between 25–35.
+
+9️⃣ Bar Chart vs Column Chart:
+========================
+Summary:
+
+Bar = horizontal
+
+Column = vertical
+
+Use for comparing categories
+
+Example:
+Sales by product — column.
+Survey answers — bar.
+
+🔟 Data Formatting in Excel (Dates, Currency, %, Text):
+=======================================================
+Summary:
+
+Format cells: Home > Number
+
+Clean imported messy data
+
+Example:
+Converting "01/08/25" to readable date or ₹10000.00 to ₹10,000
+
+🔢 BONUS: Power BI Data Types & Formatting:
+===========================================
+Summary:
+
+Define correct types (Date, Text, Decimal)
+
+Use formatting for clarity
+
+Example:
+
+Date columns to timelines
+
+Sales as ₹ currency
